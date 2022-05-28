@@ -19,8 +19,8 @@ container.appendChild(blueH3);
 
 const pinkBox = document.createElement('div');
 pinkBox.classList.add('pink-box');
-pinkBox.setAttribute('style', 'border-color: black; border-width: 5px; background: pink;');
-pinkBox
+pinkBox.setAttribute('style', 'background: pink;');
+pinkBox.style.border = "thick solid black";
 
 const boxH1 = document.createElement('h1');
 boxH1.classList.add('boxH1');
